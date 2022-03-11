@@ -16,12 +16,16 @@ body{
 
 header{
 
+	z-index: 1;
+	top: 0px;
+	position: fixed;
 	background: #292929;
 	width: 100%;
 	clear: both; /*limpia los objetos flotantes de la izquierda y derecha*/
 	content: '';
 	display: table;
 	font-size: 24px;
+	border-bottom: 3px	solid	#FFFFFF;
 
 }
 
@@ -29,7 +33,6 @@ header{
 
 	width: 1250px;
 	margin: 0 auto; /* Vertical | Horizontal */
-
 
 }
 
@@ -302,7 +305,7 @@ button:hover{
 .contenido-proyectos a{
 
 		display: inline-flex;
-		background: black;
+		background: #292929;
 		color: #FFFFFF;
 		text-decoration: none;
 		padding: 10px;
@@ -320,7 +323,7 @@ button:hover{
 .contenido-proyectos button{
 
 		display: inline-flex;
-		background: black;
+		background: #292929;
 		color: #FFFFFF;
 		text-decoration: none;
 		padding: 10px;
