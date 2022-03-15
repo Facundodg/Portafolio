@@ -1,0 +1,121 @@
+/*-------------------------------------------MIS CONTACTOS------------------------------------------*/
+
+.contenido-contactame{
+
+	background: #292929;
+	width: 100%;
+	height: 600px;
+
+}
+
+form{
+
+	height: 500px;
+	width: 450px;
+	margin: auto;
+	background: #D7D7D7;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+form h3{
+	text-align: center;
+	margin: 15px;
+}
+
+input, textarea{
+
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border: none;
+
+}
+
+textarea{
+
+	min-height: 260px;
+	max-height: 260px;
+	max-width: 100%;
+	min-width: 100%;
+
+}
+
+#boton{
+
+
+}
+
+#boton:hover{
+
+	cursor: pointer;
+
+}
+
+.contenido-contactame h2{
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+@media (max-width:480px){
+
+	form{
+		width: 100%;
+	}
+
+}
+
+.footer{
+	background: #292929;
+	padding: 0;
+	height: 50px;
+}
+
+.conteiner-footer{
+
+	max-width: 100%;
+	background-color: #D7D7D7;
+	margin: auto;
+
+}
+
+.footer-col ul{
+	list-style: none;
+}
+
+.row{
+
+		display: flex;
+		justify-content: center;
+	  align-items: center;
+	  text-align: center;
+
+}
+
+.footer-col{
+
+	padding: 0 15px;
+
+}
+
+.footer-col h4{
+
+	font-size: 25px;
+	color: black;
+
+}
+
+.footer-col .social-links a{
+
+	margin: 15px;
+	font-size: 25px;
+	padding:0;
+	background-color: #D7D7D7;
+
+}
+
+/*---------------------------------------FIN DE MIS CONTACTOS------------------------------------------*/

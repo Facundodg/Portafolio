@@ -1,0 +1,198 @@
+/*----------------------HEADER---------------------------*/
+
+header{
+
+	z-index: 3; /*pongo al header una posicion en z mas arriba que el resto, asi no chocan*/
+	top: 0px;	/*el header quedara FIJO en la posicion de arriba a la derecha*/
+	position: fixed; /*se despega del resto el header*/
+	background: #292929; /*fondo*/
+	width: 100%; /*ancho del 100%*/
+	clear: both; /*limpia los objetos flotantes de la izquierda y derecha*/
+	content: '';
+	display: table; /*de tipo display table para que todos los elementos adentro del header se pongan en horizontal*/
+	font-size: 24px; /*tamaño de la letra*/
+	border-bottom: 3px	solid	#FFFFFF; /*tamaño del borde de la parte de abajo y color*/
+
+}
+
+.menu{
+
+	width: 1250px; /*tamaño del menu en horizontal*/
+	margin: 0 auto; /* Vertical | Horizontal */
+
+}
+
+.menu img{
+
+	width: 64px; /*ancho de la imagen*/
+	height: 64px; /*largo de la imagen*/
+
+}
+
+#nav{
+
+	margin-top: 50px; /*me un margen*/
+	height: 550px; /*largo del nav*/
+	background: #292929; /*color de fondo*/
+	color: #FFFFFF; /*color de la letra*/
+	padding: 20px; 
+
+}
+
+.contenedor-parrafo-botonCV{ /*la imagen tambien esta incluida*/
+
+	margin-top: 15px; /*me da una separacion entre (PARRAFO-IMAGEN-BOTON) con el TITULO DEL NOMBRE*/
+	display: flex; /*todos los elementos internos se acomodan de forma horizontal*/
+  align-items: center; /*centra los elementos de forma horizontal*/
+  justify-content: center; /*centra los elementos de forma vertical*/
+  line-height: 1.5;
+
+
+}
+
+nav{
+
+	float: right; /*los elementos del nav flotaran a la derecha*/
+	/*osea TODO el menu*/
+	/*menos el logo*/
+
+}
+
+nav ul li{
+
+	list-style: none; /*le quita el estilo. osea la lineas como si fuera un link*/
+	margin-left: 15px;/*da un margen a la derecha a todos los li*/
+	padding: 20px 0; /* Vertical | Horizontal */
+	float: left;
+
+}
+
+nav ul li a{
+
+	padding: 20px; /*me da un padding de 20px*/
+	/* lo cual le da el ancho a cada celda */
+	/* para que abarque todo el ancho del menu */
+
+}
+
+a {
+
+  background-color: #292929; 	/* color de fondo de a */
+  transition: background-color .5s; 	/* tansicion para hacer un efecto */
+
+}
+
+a:hover { 	/* efecto hover para cuando pones el cursor*/
+
+  background-color: gold; 	/* pone el color gold cuando pones el cursor */
+  color: black; 	/* pone las letras negras para generar contraste */
+  cursor: pointer; 	/* cambia el estilo del cursor a la manito */
+
+}
+
+.menu-items{
+
+	color: #FFFFFF; 	/* pone el color blanco en las letras del menu */
+	text-decoration: none; 	/* le quita el decorado a los links */
+
+}
+
+.imagen-perdil{
+
+	border: 1px solid gold; 	/* pone un borde de ancho 1px de tipo solid y color gold */
+	border-radius: 5px; 	/* redondea la imagen de manera de que las puntas queden redondeadas */
+
+}
+
+.sobre-mi{
+
+	width: 300px; 	/* el ancho del parrafo */
+	margin: 15px; 	/* margen de 15px para los 4 sentidos */
+
+}
+
+
+.nombre{
+
+	text-align: center; 	/* centra el titulo del nombre */
+	margin-top: 35px; 	/* da un margen de 35px para arriba */
+
+}
+
+
+.boton-cv{
+
+	background: #292929; /* color de fondo del boton */
+	border: 1px solid gold; /* borde del boton */
+	border-radius: 5px; /* redondeo de las puntas del boton */
+	color: #FFFFFF; /* color de la letra */
+	padding: 25px; /* se hace mas ancho el boton con el padding */
+	cursor: pointer; /* cambio el tipo de cursor cuando se le pone un mouse */
+
+}
+
+button{
+
+	transition: background-color .5s; /* trancision para ponerle un efecto al boton */
+	border: 1px solid gold; /* agrego borde al boton */
+	border-radius: 5px; /* redonde las puntas del boton */
+
+}
+
+button:hover{
+
+	background-color: gold;/* color de fondo gold */
+	border: 1px solid black;/* borde */
+	border-radius: 5px;/* redondeo borde */
+	color: black;/* color letra */
+
+}
+
+/*---------------------------------FIN DEL HEADER-MENU Y SOBRE MI------------------------------------*/
+
+
+/*------------------------------INICIO DE LAS CONFIGURACIONES RESPONCIVE----------------------------*/
+
+
+@media (max-width:900px){
+
+#nav{
+
+	margin-top: 50px;
+	width: 100%;
+	height: 900px;
+	background: #292929;
+	color: #FFFFFF;
+	padding: 20px;
+	display: table;
+
+}
+
+
+.nombre h1{
+
+	display: table;
+	text-align: center;
+
+}
+
+.contenedor-parrafo-botonCV{
+
+	width: 100%;
+	height: 100%;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+.contenedor-parrafo-botonCV .sobre-mi{
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+}

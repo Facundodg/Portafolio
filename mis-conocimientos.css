@@ -1,0 +1,180 @@
+/*----------------------------------------INICIO DE MIS CONOCIMIENTOS-------------------------------*/
+
+.mis-conocimientos-titulo h1{
+
+	text-align: center; /*centra el titulo*/
+	color: white; /*color blanco al titulo*/
+	padding: 20px; 
+	background: #292929; /*color de fondo del titulo*/
+
+}
+
+.mis-conocimientos{
+
+	height: 335px; /*altura*/
+	background: #292929; /*fondo*/
+
+}
+
+.mis-conocimientos{
+
+	width: 100%; /*ancho de div*/
+	display: flex; /*se acomodan horizontalmente*/
+
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+.card{
+
+	width: 100%; /*ancho del 100% que pueda ocupar*/
+	height: 300px; /*altura de la card*/
+	margin: 15px; /*padding de la derecha*/
+	padding: 15px; /*margen de 15px*/
+	border-radius: 6px; /*redondeo de las puntas de la card*/
+	background: #D7D7D7;/*color de fondo*/
+	box-shadow: 0px 1px 10px rgba(255, 215, 0, 0.9); /*sombra*/
+	cursor: default; /*estilo del cursor*/
+	transition: all 400ms ease; /*transicion*/
+	display: flex; /*se acomodan de manera horizontal*/
+	overflow: hidden; /* ? */
+	justify-content: center; /* centra el contenido horizontalmente */
+
+
+}
+
+.card:hover{
+
+	box-shadow: 5px 5px 20px rgba(255, 215, 1); /*hace mas clara la sompra cuando pones el mouse arriba*/
+	transform: translateY(-3%); /*levanta en el eje y un 3% dando un efecto de que se levanta*/
+
+}
+.card img{ /*tamaño de las imagenes adentro de las cards*/
+
+	width: 128px; 
+	height: 128px;
+
+}
+
+.card .contenido{
+
+	padding: 15px;
+	text-align: center; /*centramos*/
+
+
+}
+
+.imagen-tecnologias{
+
+	margin-top: 40%; /*centra la imagen*/
+
+}
+
+.card .contenido p{
+
+	line-height: 1.5; /*separa los parrafos*/
+	color: #6a6a6a; /*color de la letra*/
+
+}
+
+.card .contenido h3{
+
+	font-weight: 100px;
+
+}
+
+/*----------------------------------------FIN DE MIS CONOCIMIENTOS-------------------------------*/
+
+
+/*--------------------------------------RESPONCIVE MIS CONOCIMIENTOS-------------------------------*/
+
+
+@media (max-width: 1500px){
+
+	.mis-conocimientos{
+
+		display: flex; /*se acomodan horizontalmente*/
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+
+	.card .contenido p{
+
+		color: orange;
+		margin-top: 15px;
+
+	}
+
+
+}
+
+@media (max-width: 1100px){
+
+	.mis-conocimientos{
+
+		display: block; /*se acomodan horizontalmente*/
+		padding-left: 20%;
+		padding-right: 20%;
+		height: 1000px;
+		padding-top: 15px;
+
+	}
+
+	.card .contenido p{
+
+		color: red;
+		margin-top: 40px;
+
+	}
+
+
+}
+
+@media (max-width: 700px){
+
+	.mis-conocimientos{
+
+		display: block; /*se acomodan horizontalmente*/
+		padding-left: 10%;
+		padding-right: 10%;
+		height: 1000px;
+		padding-top: 15px;
+
+	}
+
+	.card .contenido p{
+
+		color: green;
+		margin-top: 20px;
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
