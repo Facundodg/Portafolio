@@ -7,6 +7,12 @@
 
 }
 
+html{
+
+	scroll-behavior: smooth;
+
+}
+
 body{
 
 	/*background: #292929;*/
