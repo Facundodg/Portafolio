@@ -44,6 +44,26 @@ header{
 
 }
 
+#nav{
+
+	margin-top: 50px;
+	height: 550px;
+	background: #292929;
+	color: #FFFFFF;
+	padding: 20px;
+
+}
+
+.contenedor-parrafo-botonCV{
+
+	margin-top: 15px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
 nav{
 
 	float: right;
@@ -94,70 +114,57 @@ a:hover {
 }
 
 
-#nav{
-
-	margin-top: 2px;
-	height: 500px;
-	background: #292929;
-	color: #FFFFFF;
-	padding: 20px;
-	display: block;
-
-}
-
 .imagen-perdil{
 
-	display: block;
-	border: 5px solid gold;
+	border: 1px solid gold;
 	background: gold;
-	float: right;
-	margin-right: 25%;
 	border-radius: 5px;
-
 
 }
 
-.boton-cv{
-
-	float: left;
-	padding: 25px;
-	background: #292929;
-	border: 5px solid gold;
-	border-radius: 5px;
-	color: #FFFFFF;
-	margin-left: 30%;
-	margin-top: 7%;
-
-
-}
 
 .sobre-mi{
 
-	margin-left: 40%;
 	width: 300px;
+	margin: 15px;
 
 }
-
 
 
 .nombre{
 
 	text-align: center;
-	margin-bottom: 15px;
+	margin-top: 35px;
+
+}
+
+
+.boton-cv{
+
+	background: #292929;
+	border: 1px solid gold;
+	border-radius: 5px;
+	color: #FFFFFF;
 
 }
 
 button{
 
+	padding: 25px;
 	background: #292929;
 	color: #FFFFFF;
 	transition: background-color .5s;
+	border: 1px solid gold;
+	border-radius: 5px;
 
 }
 
 button:hover{
 
+	padding: 25px;
 	background-color: gold;
+	border: 1px solid black;
+	border-radius: 5px;
 	color: black;
 
 }
@@ -497,3 +504,53 @@ textarea{
 	background-color: #D7D7D7;
 
 }
+
+@media screen and (max-width:850px){
+
+	#nav{
+
+	margin-top: 50px;
+	width: 100%;
+	height: 900px;
+	background: #292929;
+	color: #FFFFFF;
+	padding: 20px;
+	display: table;
+
+}
+
+
+.nombre h1{
+
+	display: table;
+	text-align: center;
+
+}
+
+.contenedor-parrafo-botonCV{
+
+	width: 100%;
+	height: 100%;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+.contenedor-parrafo-botonCV .sobre-mi{
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+}
+
+
+
+
+
+
+
