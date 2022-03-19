@@ -9,15 +9,27 @@ header{
 	width: 100%; /*ancho del 100%*/
 	clear: both; /*limpia los objetos flotantes de la izquierda y derecha*/
 	content: '';
-	display: table; /*de tipo display table para que todos los elementos adentro del header se pongan en horizontal*/
 	font-size: 24px; /*tamaño de la letra*/
 	border-bottom: 3px	solid	#FFFFFF; /*tamaño del borde de la parte de abajo y color*/
 
 }
 
+header label{
+
+	float: right;
+	margin: auto;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-right: 15px;
+
+}
+
 .menu{
 
-	width: 1250px; /*tamaño del menu en horizontal*/
+	width: 100%; /*tamaño del menu en horizontal*/
 	margin: 0 auto; /* Vertical | Horizontal */
 
 }
@@ -29,8 +41,16 @@ header{
 
 }
 
+
+#menu-bar{
+
+	display: none;
+
+}
+
 #nav{
 
+	width: 100%;
 	margin-top: 50px; /*me un margen*/
 	height: 550px; /*largo del nav*/
 	background: #292929; /*color de fondo*/
@@ -53,10 +73,14 @@ header{
 nav{
 
 	float: right; /*los elementos del nav flotaran a la derecha*/
-	/*osea TODO el menu*/
-	/*menos el logo*/
-
+	background: #292929;
+	position: absolute;
+	display: block;
+	top: 0px;
+	right: 0;
+	transition: all 0.2s;
 }
+
 
 nav ul li{
 
@@ -153,7 +177,6 @@ button:hover{
 
 /*------------------------------INICIO DE LAS CONFIGURACIONES RESPONCIVE----------------------------*/
 
-
 @media (max-width:900px){
 
 #nav{
@@ -194,5 +217,53 @@ button:hover{
 	text-align: center;
 
 }
+
+	header h1{
+
+		color: gold;
+
+	}
+
+}
+
+#menu-bar:checked ~ nav{
+
+	position: absolute;
+	z-index: 4;
+	transform: translateX(0%);
+
+}
+
+@media (max-width:1055px){
+
+	nav{
+
+		transform: translateX(-110%);
+		width: 100%;
+		height: auto;
+		display: flex;
+		background: rgba(51, 51, 51,0.9);
+		top: 70px;
+
+	}
+
+	nav li{
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid gold;
+	}
+
+  nav a{
+
+  border: none;
+	background: none;
+	width: 100%;
+	margin-top: 5px;
+
+
+	}
+
+
+
 
 }
