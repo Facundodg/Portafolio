@@ -63,9 +63,9 @@ header label{
 
 	margin-top: 15px; /*me da una separacion entre (PARRAFO-IMAGEN-BOTON) con el TITULO DEL NOMBRE*/
 	display: flex; /*todos los elementos internos se acomodan de forma horizontal*/
-  align-items: center; /*centra los elementos de forma horizontal*/
-  justify-content: center; /*centra los elementos de forma vertical*/
-  line-height: 1.5;
+	align-items: center; /*centra los elementos de forma horizontal*/
+	justify-content: center; /*centra los elementos de forma vertical*/
+	line-height: 1.5;
 
 
 }
@@ -125,6 +125,8 @@ a:hover { 	/* efecto hover para cuando pones el cursor*/
 
 	border: 1px solid gold; 	/* pone un borde de ancho 1px de tipo solid y color gold */
 	border-radius: 5px; 	/* redondea la imagen de manera de que las puntas queden redondeadas */
+	width: 300px;
+	height: 380;
 
 }
 
@@ -132,6 +134,7 @@ a:hover { 	/* efecto hover para cuando pones el cursor*/
 
 	width: 300px; 	/* el ancho del parrafo */
 	margin: 15px; 	/* margen de 15px para los 4 sentidos */
+	line-height: 2.3;
 
 }
 
@@ -140,6 +143,7 @@ a:hover { 	/* efecto hover para cuando pones el cursor*/
 
 	text-align: center; 	/* centra el titulo del nombre */
 	margin-top: 35px; 	/* da un margen de 35px para arriba */
+	margin-bottom: 30px;
 
 }
 

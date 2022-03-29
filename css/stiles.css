@@ -8,7 +8,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -22,7 +22,7 @@ html{
 /*defino solamente que tipo de letra usare*/
 body{
 
-	/*background: #292929;*/
+	background: #292929;
 	font-family: 'calibri';
 
 }
