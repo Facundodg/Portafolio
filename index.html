@@ -6,8 +6,10 @@
 
 	<meta charset="utf-8">
 	<link href="css/fontello.css" rel="stylesheet" type="text/css">
+	
 		<link rel="icon" href="img/F.png">
 		<link rel="stylesheet" type="text/css" href="css/stiles.css">
+		<link rel="stylesheet" type="text/css" href="css/ventana-modal.css">
 		<link rel="stylesheet" type="text/css" href="css/header-sobremi.css">
 		<link rel="stylesheet" type="text/css" href="css/mis-conocimientos.css">
 		<link rel="stylesheet" type="text/css" href="css/mis-proyectos.css">
@@ -60,7 +62,7 @@
 <!--NAV DEL DIV-->
 <div id = "nav">
 
-		<h1 class="nombre"><a name="seccion-sobre-mi"></a>I'm Facundo Diaz</h1>
+		<h1 class="nombre">I'm <a name="seccion-sobre-mi" class="neon">Facundo</a> Diaz</h1>
 
 			<div class="contenedor-parrafo-botonCV">
 
@@ -320,7 +322,7 @@
 
 </div>
 
-<!--primera bandeja---------------------------------------------------------------------------------------------------->
+<!--primera bandeja---------------------------------------------------------------------------------------->
 
 <div class="conteiner-proyectos">
 
@@ -340,11 +342,79 @@
 					
 				<h3>Club de Mascotas</h3>
 				<p>Proyecto de Practica FrontEnd echo con (HTML,CSS).</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
 		</div>
+
+
+
+
+<!-- VENTANA MODAL DEL PROYECTO MASCOTAS -->
+
+	<aside id="modal" class="modal">
+
+		<div class="content-modal">
+
+			<div class="header-modal">
+
+				<a href="#" class="close-modal"> X </a>
+				<h2>Club de Macotas</h2>
+
+			</div>
+
+			<article>
+
+				<div class="container-slider">
+
+					<div class="slider" id="slider">
+
+						<div class="slider__section">
+							<img src="img/proyecto-gym-1.JPG" alt="" class="slider__img">
+						</div>
+
+						<div class="slider__section">
+							<img src="img/proyecto-gym-2.JPG" alt="" class="slider__img">
+						</div>	
+
+						<div class="slider__section">
+							<img src="img/proyecto-portafolio-1.JPG" alt="" class="slider__img">
+						</div>			
+
+						<div class="slider__section">
+							<img src="img/proyecto-springBoot-1.png" alt="" class="slider__img">
+						</div>
+
+					</div>
+
+					<div class="slider__btn slider__btn--right" id="btn-left">&#62;</div>
+					<div class="slider__btn slider__btn--left" id="btn-right">&#60;</div>
+	
+				</div>
+
+				<div class="info-proyecto">
+					
+					<h3>descripcion</h3>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro animi obcaecati debitis natus, dolorem dolore perspiciatis quia vitae doloribus sed rem, error officiis aspernatur tempore ipsam optio, quae eveniet quos?</p>
+
+					<a href="https://github.com/Facundodg"><i class="fab fa-github"></i></a>
+
+				</div>
+
+			</article>
+
+		</div>
+
+		<a href="#" class="btn-close-modal"></a>
+
+	</aside>
+
+<!-- FIN DE LA VENTANA MODAL DEL PROYECTO MASCOTAS -->
+
+
 
 		<!-- PROYECTO FRENTEND -->
 
@@ -352,20 +422,23 @@
 			
 			<figure>
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-portafolio-1.JPG" width="200" height="100">
 
 			</figure>
 			
 			<div class="contenido-proyectos"> 
 					
 				<h3>Mi Portafolio</h3>
-				<p>Proyecto de uso Personal echo con (HTML,CSS)</p>
+				<p>Proyecto de uso Personal y practica echo con (HTML,CSS)</p>
 
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button> 
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
 		</div>
+
+
+		
 
 		<!-- PROYECTO ARDUINO -->
 
@@ -373,7 +446,7 @@
 			
 			<figure class="imagen-proyectos">
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-portafolio-1.JPG" width="200" height="100">
 
 			</figure>
 			
@@ -381,7 +454,7 @@
 					
 				<h3>Estudio Juridico</h3>
 				<p>Proyecto de Practica FronEnd echo con (BOOSTRAP,HTML,CSS).</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -401,7 +474,7 @@
 					
 				<h3>A DEFINIR</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, nemo?.</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -423,7 +496,7 @@
 			
 			<figure>
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-springBoot-1.png" width="200" height="100">
 
 			</figure>
 			
@@ -431,7 +504,7 @@
 					
 				<h3>CRUD con Spring Boot</h3>
 				<p>Proyecto de practica echo con (JAVA,SPRING BOOT,HTML,CSS,JAVASCRIPT).</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -452,7 +525,7 @@
 				<h3>PROYECTO FINAL</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, minus.</p>
 
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button> 
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -464,7 +537,7 @@
 			
 			<figure class="imagen-proyectos">
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-tiramisu-1.JPG" width="200" height="100">
 
 			</figure>
 			
@@ -472,7 +545,7 @@
 					
 				<h3>TiramisuStore</h3>
 				<p>Proyecto freeLancer para un Enprendimiento echo con (JAVA,MYSQL,JDBC,MVC).</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -484,7 +557,7 @@
 			
 			<figure class="imagen-proyectos">
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-gym-2.JPG" width="200" height="100">
 
 			</figure>
 			
@@ -492,7 +565,7 @@
 					
 				<h3>Gimnasio</h3>
 				<p>Proyecto freeLancer para un gimnasio echo con (JAVA,MVC,Mysql,JDBC).</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -524,7 +597,7 @@
 					
 				<h3>OTRO PROYECTO JAVA</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, perferendis..</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -543,9 +616,9 @@
 			<div class="contenido-proyectos"> 
 					
 				<h3>Sensor de Proximidad Para Auto</h3>
-				<p>Proyecto de uso Propio echo con (Arduino)</p>
+				<p>Proyecto de practica de curso echo con <br>(Arduino)</p>
 
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button> 
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -564,8 +637,8 @@
 			<div class="contenido-proyectos"> 
 					
 				<h3>CNC</h3>
-				<p>Proyecto de uso Propio echo con (Arduino)</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<p>Proyecto de uso Propio echo con <br>(Arduino)</p>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -577,15 +650,15 @@
 			
 			<figure class="imagen-proyectos">
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/miñion.gif" width="200" height="100">
 
 			</figure>
 			
 			<div class="contenido-proyectos"> 
 					
 				<h3>Lector de Targetas</h3>
-				<p>Proyecto de uso Propio echo con (Arduino)</p>
-				<button href="" class="botons uno"><span>Leer Mas de este proyecto</span></button>
+				<p>Proyecto de uso Propio echo con <br>(Arduino)</p>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
 
 			</div>
 
@@ -654,6 +727,11 @@
 	
 </footer>
 <!--FIN DEL FOOTER-->
+
+<!--SCRIPT-->
+
+<script src="slider.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
 </body>

@@ -52,7 +52,6 @@
 .contenido-proyectos p{
 
 	padding: 15px;
-	margin-bottom: 15px;
 
 }
 
@@ -86,9 +85,10 @@
 		border-radius: 30px;
 		position: relative;
 		overflow: hidden;
-    transition: .3s ease all;
-    align-items: center;
-    justify-content: center;
+		transition: .3s ease all;
+		align-items: center;
+		justify-content: center;
+
 }
 
 .botons span{
@@ -107,7 +107,7 @@
 	background: gold;
 	position: absolute;
 	z-index: 1;
-	top: -36px;
+	top: -41px;
 	left: 0;
 	transition: .3s ease-in-out all;
 
@@ -121,16 +121,17 @@
 	color: black;
 }
 
-button:hover{
+#show-modal:hover{
 
-	border: 2px solid black;
+	border: 3px solid black;
 
 }
 
 figure img{
 
-	width: 100%;
-	height: 100%;
+	width: 350px;
+	height: 220px;
+	border-radius: 5px;
 
 }
 
