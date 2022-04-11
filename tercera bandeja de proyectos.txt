@@ -1,0 +1,90 @@
+<!--tercera bandeja----------------------------------------------------------------------------------------------------------->
+
+<div class="conteiner-proyectos">
+
+    <div class="mis-proyectos">
+
+		<!-- PROYECTO GYM -->
+
+		<div class="card-proyectos">
+			
+			<figure>
+				
+				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+
+			</figure>
+			
+			<div class="contenido-proyectos"> 
+					
+				<h3>OTRO PROYECTO JAVA</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, perferendis..</p>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
+
+			</div>
+
+		</div>
+
+		<!-- PROYECTO FRENTEND -->
+
+		<div class="card-proyectos">
+			
+			<figure>
+				
+				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+
+			</figure>
+			
+			<div class="contenido-proyectos"> 
+					
+				<h3>Sensor de Proximidad Para Auto</h3>
+				<p>Proyecto de practica de curso echo con(Arduino)</p>
+
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
+
+			</div>
+
+		</div>
+
+		<!-- PROYECTO ARDUINO -->
+
+		<div class="card-proyectos">
+			
+			<figure class="imagen-proyectos">
+				
+				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+
+			</figure>
+			
+			<div class="contenido-proyectos"> 
+					
+				<h3>CNC</h3>
+				<p>Proyecto de uso Propio echo con (Arduino)</p>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
+
+			</div>
+
+		</div>
+
+		<!-- PROYECTO ARDUINO -->
+
+		<div class="card-proyectos">
+			
+			<figure class="imagen-proyectos">
+				
+				<img  class="imagen-proyectos" src="img/miñion.gif" width="200" height="100">
+
+			</figure>
+			
+			<div class="contenido-proyectos"> 
+					
+				<h3>Lector de Targetas</h3>
+				<p>Proyecto de uso Propio echo con(Arduino)</p>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
+
+			</div>
+
+		</div>
+
+</div>
+
+<!--FIN DE tercera bandeja---------------------------------------------------------------------------------------------------->

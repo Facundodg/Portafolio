@@ -128,7 +128,7 @@ aside{
 
 .modal:target .content-modal{
 
-    top: 25vh;
+    top: 5vh;
     transition: top;
     transition: top 0.35s ease;
 
@@ -190,7 +190,7 @@ aside{
 .slider{
 
     display: flex;
-    width: 400%;
+    width: 300%;
     height: 400px;
     margin-left: -100%;
 
@@ -202,13 +202,37 @@ aside{
 
 }
 
+.slider__section__portafolio{
+
+    width: 100%;
+
+}
+
+.slider__section__juridico{
+
+    width: 100%;
+
+}
+
+.slider__section__spring{
+
+    width: 100%;
+
+}
+
+.slider__section__tiramisu{
+
+    width: 100%;
+
+}
+
 /*-----------------respon de ventana modal---------------------*/
 
 @media (max-width: 700px){
 
     .modal .content-modal{
 
-        width: 500px;
+        width: 450px;
         height: 620px;
     
     }

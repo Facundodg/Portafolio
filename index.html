@@ -21,7 +21,7 @@
 		
 	<title>Mi Portafolio</title>
 
-</head>s
+</head>
 
 <body>
 
@@ -53,16 +53,23 @@
 
 		</nav>
 
-
 	</div>
 
 </header>
 <!-- FIN HEADER /CABEZAl -->
 
+<div>
+
+	<a  name="seccion-sobre-mi" ></a>
+
+</div>
+
 <!--NAV DEL DIV-->
 <div id = "nav">
 
-		<h1 class="nombre">I'm <a name="seccion-sobre-mi" class="neon">Facundo</a> Diaz</h1>
+		
+
+		<h1 class="nombre">I'm <a class="neon">Facundo</a> Diaz</h1>
 
 			<div class="contenedor-parrafo-botonCV">
 
@@ -334,7 +341,7 @@
 			
 			<figure>
 				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-clubMasctas-1.JPG" width="200" height="100">
 
 			</figure>
 			
@@ -343,7 +350,7 @@
 				<h3>Club de Mascotas</h3>
 				<p>Proyecto de Practica FrontEnd echo con (HTML,CSS).</p>
 
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
@@ -372,20 +379,24 @@
 					<div class="slider" id="slider">
 
 						<div class="slider__section">
-							<img src="img/proyecto-gym-1.JPG" alt="" class="slider__img">
+							<img src="img/proyecto-clubMasctas-1.JPG" alt="" class="slider__img">
 						</div>
 
 						<div class="slider__section">
-							<img src="img/proyecto-gym-2.JPG" alt="" class="slider__img">
+							<img src="img/proyecto-clubMasctas-2.JPG" alt="" class="slider__img">
 						</div>	
 
 						<div class="slider__section">
-							<img src="img/proyecto-portafolio-1.JPG" alt="" class="slider__img">
-						</div>			
+							<img src="img/proyecto-clubMasctas-3.JPG" alt="" class="slider__img">
+						</div>	
+						
+						<!--
 
 						<div class="slider__section">
 							<img src="img/proyecto-springBoot-1.png" alt="" class="slider__img">
 						</div>
+
+						-->
 
 					</div>
 
@@ -396,11 +407,12 @@
 
 				<div class="info-proyecto">
 					
-					<h3>descripcion</h3>
+					<h3>Descripcion</h3>
 
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro animi obcaecati debitis natus, dolorem dolore perspiciatis quia vitae doloribus sed rem, error officiis aspernatur tempore ipsam optio, quae eveniet quos?</p>
+					<p>Proyecto de practica del Curso de Desarrollador WEB de Google Activate.Echo con 
+						HTML Y CSS, Compleatamente Responsive Desing.</p>
 
-					<a href="https://github.com/Facundodg"><i class="fab fa-github"></i></a>
+					<a href="https://github.com/Facundodg/Club-de-Mascotas"><i class="fab fa-github"></i></a>
 
 				</div>
 
@@ -429,38 +441,154 @@
 			<div class="contenido-proyectos"> 
 					
 				<h3>Mi Portafolio</h3>
-				<p>Proyecto de uso Personal y practica echo con (HTML,CSS)</p>
+				<p>Proyecto de uso Personal y practica echo con (HTML, CSS, JavaScript, Spring Boot)</p>
 
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<a href="#modal-portafolio" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
 		</div>
 
+		<!-- VENTANA MODAL DEL PROYECTO PORTAFOLIO -->
+
+		<aside id="modal-portafolio" class="modal">
+
+			<div class="content-modal">
+
+				<div class="header-modal">
+
+					<a href="#" class="close-modal"> X </a>
+					<h2>Mi Portafolio</h2>
+
+				</div>
+
+				<article>
+
+					<div class="container-slider">
+
+						<div class="slider" id="slider-portafolio">
+
+							<div class="slider__section__portafolio">
+								<img src="img/proyecto-portafolio-1.JPG" alt="" class="slider__img">
+							</div>
+
+							<div class="slider__section__portafolio">
+								<img src="img/proyecto-portafolio-4.JPG" alt="" class="slider__img">
+							</div>	
+
+							<div class="slider__section__portafolio">
+								<img src="img/proyecto-portafolio-3.JPG" alt="" class="slider__img">
+							</div>	
+								
+						</div>
+
+						<div class="slider__btn slider__btn--right" id="btn-left-portafolio">&#62;</div>
+						<div class="slider__btn slider__btn--left" id="btn-right-portafolio">&#60;</div>
+		
+					</div>
+
+					<div class="info-proyecto">
+						
+						<h3>Descripcion</h3>
+
+						<p>Este es mi Portafolio donde Muestro algunos de mis proyectos o Practicas que voy haciendo, El Portafolio es ResponsiveDisine, Cuenta con un Menu-Bar para poderse mover por toda la pagina y tiene uso de Thymeleaf y Spring Boot para la seccion de Contactos.</p>
+
+						<a href="https://github.com/Facundodg/Portafolio.git"><i class="fab fa-github"></i></a>
+
+					</div>
+
+				</article>
+
+			</div>
+
+			<a href="#" class="btn-close-modal"></a>
+
+		</aside>
+
+<!-- FIN DE LA VENTANA MODAL DEL PROYECTO PORTAFOLIO -->
+
 
 		
 
-		<!-- PROYECTO ARDUINO -->
+		<!-- PROYECTO ESTUDIO JURIDICO -->
 
 		<div class="card-proyectos">
 			
 			<figure class="imagen-proyectos">
 				
-				<img  class="imagen-proyectos" src="img/proyecto-portafolio-1.JPG" width="200" height="100">
+				<img  class="imagen-proyectos" src="img/proyecto-estudioJuridico-1.JPG" width="200" height="100">
 
 			</figure>
 			
 			<div class="contenido-proyectos"> 
 					
 				<h3>Estudio Juridico</h3>
-				<p>Proyecto de Practica FronEnd echo con (BOOSTRAP,HTML,CSS).</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<p>Proyecto de Practica de curso (HTML,CSS,Boostrap,JavaScript,Spring Boot).</p>
+				<a href="#modal-juridico" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
 		</div>
 
-		<!-- PROYECTO ARDUINO -->
+<!-- VENTANA MODAL DEL PROYECTO JURIDICO -->
+
+				<aside id="modal-juridico" class="modal">
+
+					<div class="content-modal">
+		
+						<div class="header-modal">
+		
+							<a href="#" class="close-modal"> X </a>
+							<h2>Estudio Juridico</h2>
+		
+						</div>
+		
+						<article>
+		
+							<div class="container-slider">
+		
+								<div class="slider" id="slider-juridico">
+		
+									<div class="slider__section__juridico">
+										<img src="img/proyecto-estudioJuridico-1.JPG" alt="" class="slider__img">
+									</div>
+		
+									<div class="slider__section__juridico">
+										<img src="img/proyecto-estudioJuridico-2.JPG" alt="" class="slider__img">
+									</div>	
+		
+									<div class="slider__section__juridico">
+										<img src="img/proyecto-estudioJuridico-3.JPG" alt="" class="slider__img">
+									</div>	
+										
+								</div>
+		
+								<div class="slider__btn slider__btn--right" id="btn-left-juridico">&#62;</div>
+								<div class="slider__btn slider__btn--left" id="btn-right-juridico">&#60;</div>
+				
+							</div>
+		
+							<div class="info-proyecto">
+								
+								<h3>Descripcion</h3>
+		
+								<p>Proyecto de practica del Curso de Programacion Full Stack, Usa el Frameword de CSS Boostrap para todo el FrontEnd, y usa Thimeleaf y Spring Boot para la seccion de contactos.</p>
+		
+								<a href="https://github.com/Facundodg/EstudioJuridico.git"><i class="fab fa-github"></i></a>
+		
+							</div>
+		
+						</article>
+		
+					</div>
+		
+					<a href="#" class="btn-close-modal"></a>
+		
+				</aside>
+		
+<!-- FIN DE LA VENTANA MODAL DEL PROYECTO JURIDICO -->
+
+		<!-- PROYECTO A DEFINIR -->
 
 		<div class="card-proyectos">
 			
@@ -474,7 +602,7 @@
 					
 				<h3>A DEFINIR</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, nemo?.</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
@@ -490,7 +618,7 @@
 
     <div class="mis-proyectos">
 
-		<!-- PROYECTO GYM -->
+		<!-- CRUD CON SPRING BOOT -->
 
 		<div class="card-proyectos">
 			
@@ -503,12 +631,72 @@
 			<div class="contenido-proyectos"> 
 					
 				<h3>CRUD con Spring Boot</h3>
-				<p>Proyecto de practica echo con (JAVA,SPRING BOOT,HTML,CSS,JAVASCRIPT).</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<p>Proyecto de practica echo con (Java,Spring Boot,HTML,CSS,JavaScript).</p>
+				<a href="#modal-spring" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
 		</div>
+
+<!-- VENTANA MODAL DEL PROYECTO CRUD-SPRING -->
+
+<aside id="modal-spring" class="modal">
+
+	<div class="content-modal">
+
+		<div class="header-modal">
+
+			<a href="#" class="close-modal"> X </a>
+			<h2>Crud con Spring Boot</h2>
+
+		</div>
+
+		<article>
+
+			<div class="container-slider">
+
+				<div class="slider" id="slider-spring">
+
+					<div class="slider__section__spring">
+						<img src="img/proyecto-springBoot-1.png" alt="" class="slider__img">
+					</div>
+
+					<div class="slider__section__spring">
+						<img src="img/proyecto-springBoot-2.png" alt="" class="slider__img">
+					</div>	
+
+					<div class="slider__section__spring">
+						<img src="img/proyecto-springBoot-3.png" alt="" class="slider__img">
+					</div>	
+						
+				</div>
+
+				<div class="slider__btn slider__btn--right" id="btn-left-spring">&#62;</div>
+				<div class="slider__btn slider__btn--left" id="btn-right-spring">&#60;</div>
+
+			</div>
+
+			<div class="info-proyecto">
+				
+				<h3>Descripcion</h3>
+
+				<p>Proyecto de practica para Curso de Programacion Full Stack, es una practica que tiene todo el crud con Spring Boot.</p>
+
+				<a href="https://github.com/Facundodg/crud-spring-boot.git"><i class="fab fa-github"></i></a>
+
+			</div>
+
+		</article>
+
+	</div>
+
+	<a href="#" class="btn-close-modal"></a>
+
+</aside>
+
+<!-- FIN DE LA VENTANA MODAL DEL PROYECTO CRUD-SPRING -->
+
+
 
 		<!-- PROYECTO FRENTEND -->
 
@@ -525,13 +713,13 @@
 				<h3>PROYECTO FINAL</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, minus.</p>
 
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
 		</div>
 
-		<!-- PROYECTO ARDUINO -->
+		<!-- PROYECTO TIRAMISU STORE -->
 
 		<div class="card-proyectos">
 			
@@ -545,11 +733,69 @@
 					
 				<h3>TiramisuStore</h3>
 				<p>Proyecto freeLancer para un Enprendimiento echo con (JAVA,MYSQL,JDBC,MVC).</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<a href="#modal-tiramisu" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
 		</div>
+
+<!-- VENTANA MODAL DEL PROYECTO CRUD-SPRING -->
+
+<aside id="modal-tiramisu" class="modal">
+
+	<div class="content-modal">
+
+		<div class="header-modal">
+
+			<a href="#" class="close-modal"> X </a>
+			<h2>Crud con Spring Boot</h2>
+
+		</div>
+
+		<article>
+
+			<div class="container-tiramisu">
+
+				<div class="slider" id="slider-tiramisu">
+
+					<div class="slider__section__tiramisu">
+						<img src="img/proyecto-tiramisu-1.JPG" alt="" class="slider__img">
+					</div>
+
+					<div class="slider__section__tiramisu">
+						<img src="img/proyecto-tiramisu-2.JPG" alt="" class="slider__img">
+					</div>	
+
+					<div class="slider__section__tiramisu">
+						<img src="img/proyecto-tiramisu-3.JPG" alt="" class="slider__img">
+					</div>	
+						
+				</div>
+
+				<div class="slider__btn slider__btn--right" id="btn-left-tiramisu">&#62;</div>
+				<div class="slider__btn slider__btn--left" id="btn-right-tiramisu">&#60;</div>
+
+			</div>
+
+			<div class="info-proyecto">
+				
+				<h3>Descripcion</h3>
+
+				<p>Proyecto de practica para Curso de Programacion Full Stack, es una practica que tiene todo el crud con Spring Boot.</p>
+
+				<a href="https://github.com/Facundodg/crud-spring-boot.git"><i class="fab fa-github"></i></a>
+
+			</div>
+
+		</article>
+
+	</div>
+
+	<a href="#" class="btn-close-modal"></a>
+
+</aside>
+
+<!-- FIN DE LA VENTANA MODAL DEL PROYECTO CRUD-SPRING -->
 
 		<!-- PROYECTO ARDUINO -->
 
@@ -565,7 +811,7 @@
 					
 				<h3>Gimnasio</h3>
 				<p>Proyecto freeLancer para un gimnasio echo con (JAVA,MVC,Mysql,JDBC).</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
+				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas</span></a>
 
 			</div>
 
@@ -575,98 +821,6 @@
 
 
 <!--FIN DE segunda bandeja---------------------------------------------------------------------------------------------------->
-
-
-<!--tercera bandeja---------------------------------------------------------------------------------------------------->
-
-<div class="conteiner-proyectos">
-
-    <div class="mis-proyectos">
-
-		<!-- PROYECTO GYM -->
-
-		<div class="card-proyectos">
-			
-			<figure>
-				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
-
-			</figure>
-			
-			<div class="contenido-proyectos"> 
-					
-				<h3>OTRO PROYECTO JAVA</h3>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, perferendis..</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
-
-			</div>
-
-		</div>
-
-		<!-- PROYECTO FRENTEND -->
-
-		<div class="card-proyectos">
-			
-			<figure>
-				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
-
-			</figure>
-			
-			<div class="contenido-proyectos"> 
-					
-				<h3>Sensor de Proximidad Para Auto</h3>
-				<p>Proyecto de practica de curso echo con <br>(Arduino)</p>
-
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
-
-			</div>
-
-		</div>
-
-		<!-- PROYECTO ARDUINO -->
-
-		<div class="card-proyectos">
-			
-			<figure class="imagen-proyectos">
-				
-				<img  class="imagen-proyectos" src="img/proyecto1.jpg" width="200" height="100">
-
-			</figure>
-			
-			<div class="contenido-proyectos"> 
-					
-				<h3>CNC</h3>
-				<p>Proyecto de uso Propio echo con <br>(Arduino)</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
-
-			</div>
-
-		</div>
-
-		<!-- PROYECTO ARDUINO -->
-
-		<div class="card-proyectos">
-			
-			<figure class="imagen-proyectos">
-				
-				<img  class="imagen-proyectos" src="img/miñion.gif" width="200" height="100">
-
-			</figure>
-			
-			<div class="contenido-proyectos"> 
-					
-				<h3>Lector de Targetas</h3>
-				<p>Proyecto de uso Propio echo con <br>(Arduino)</p>
-				<a href="#modal" id="show-modal" class="botons uno"><span>Leer Mas de este Proyecto</span></a>
-
-			</div>
-
-		</div>
-
-</div>
-
-<!--FIN DE tercera bandeja---------------------------------------------------------------------------------------------------->
 
 </div>
 
@@ -731,6 +885,15 @@
 <!--SCRIPT-->
 
 <script src="slider.js"></script>
+
+<script src="slider-portafolio.js"></script>
+
+<script src="slider-juridico.js"></script>
+
+<script src="slider-spring.js"></script>
+
+<script src="slider-tiramisu.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 

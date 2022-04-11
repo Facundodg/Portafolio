@@ -26,7 +26,7 @@
 
 .card{
 
-	width: 400px; /*ancho del 100% que pueda ocupar*/
+	width: 500px; /*ancho del 100% que pueda ocupar*/
 	height: 250px; /*altura de la card*/
 	margin: 15px; /*padding de la derecha*/
 	padding: 15px; /*margen de 15px*/
@@ -123,7 +123,7 @@
 
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 400px;
 
 	}
 
@@ -136,6 +136,7 @@
 		display: block; /*se acomodan horizontalmente*/
 		height: auto;
 		padding-top: 15px;
+		height: auto;
 
 	}
 	.card{
