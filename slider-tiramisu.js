@@ -33,7 +33,7 @@ btnLeftTiramisu.addEventListener('click', function(){
 
 function moverIzquierdaTiramisu(){
 
-    let sliderSectionTiramisu = document.querySelectorAll(".slider__section__spring");
+    let sliderSectionTiramisu = document.querySelectorAll(".slider__section__tiramisu");
     let sliderSectionLastTiramisu = sliderSectionTiramisu[sliderSectionTiramisu.length -1];
     slider_Tiramisu.style.marginLeft = "0%";
     slider_Tiramisu.style.transition = "all 0.5s";
